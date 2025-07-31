@@ -1,0 +1,225 @@
+{
+  "default_wiki": "archwiki",
+  "wikis": {
+    "archwiki": {
+      "name": "Arch Wiki",
+      "api_url": "https://wiki.archlinux.org/api.php",
+      "user_agent": "WikiSecureBot/1.0 (Arch Wiki)",
+      "validation_rules": {
+        "related_articles": "{{Related articles",
+        "subsection_format": "===",
+        "note_box": "{{Note|",
+        "no_duplicate_numbering": "===1. "
+      }
+    },
+    "wikipedia": {
+      "name": "Wikipedia",
+      "api_url": "https://en.wikipedia.org/api.php",
+      "user_agent": "WikiSecureBot/1.0 (Wikipedia)",
+      "validation_rules": {
+        "infobox": "{{Infobox",
+        "references": "==References==",
+        "categories": "[[Category:",
+        "see_also": "==See also=="
+      }
+    },
+    "wiktionary": {
+      "name": "Wiktionary",
+      "api_url": "https://en.wiktionary.org/api.php",
+      "user_agent": "WikiSecureBot/1.0 (Wiktionary)",
+      "validation_rules": {
+        "language_heading": "==English==",
+        "part_of_speech": "===Noun===",
+        "definitions": "# ",
+        "categories": "[[Category:"
+      }
+    },
+    "wikibooks": {
+      "name": "Wikibooks",
+      "api_url": "https://en.wikibooks.org/api.php",
+      "user_agent": "WikiSecureBot/1.0 (Wikibooks)",
+      "validation_rules": {
+        "chapter_heading": "==Chapter",
+        "section_heading": "===",
+        "categories": "[[Category:",
+        "book_nav": "{{Book nav"
+      }
+    },
+    "wikiquote": {
+      "name": "Wikiquote",
+      "api_url": "https://en.wikiquote.org/api.php",
+      "user_agent": "WikiSecureBot/1.0 (Wikiquote)",
+      "validation_rules": {
+        "quote_heading": "==",
+        "source_section": "==Quotes about",
+        "categories": "[[Category:",
+        "nav_template": "{{Quote box"
+      }
+    },
+    "wikisource": {
+      "name": "Wikisource",
+      "api_url": "https://en.wikisource.org/api.php",
+      "user_agent": "WikiSecureBot/1.0 (Wikisource)",
+      "validation_rules": {
+        "page_heading": "==",
+        "poem_section": "<poem>",
+        "categories": "[[Category:",
+        "header_template": "{{header"
+      }
+    },
+    "wikiversity": {
+      "name": "Wikiversity",
+      "api_url": "https://en.wikiversity.org/api.php",
+      "user_agent": "WikiSecureBot/1.0 (Wikiversity)",
+      "validation_rules": {
+        "course_heading": "==Course:",
+        "lesson_heading": "===",
+        "categories": "[[Category:",
+        "school_nav": "{{School nav"
+      }
+    },
+    "wikidata": {
+      "name": "Wikidata",
+      "api_url": "https://www.wikidata.org/api.php",
+      "user_agent": "WikiSecureBot/1.0 (Wikidata)",
+      "validation_rules": {
+        "item_claim": "claims:",
+        "property_usage": "P",
+        "categories": "[[Category:",
+        "wikibase_item": "{{#statements:"
+      }
+    },
+    "wikimedia_commons": {
+      "name": "Wikimedia Commons",
+      "api_url": "https://commons.wikimedia.org/api.php",
+      "user_agent": "WikiSecureBot/1.0 (Wikimedia Commons)",
+      "validation_rules": {
+        "file_description": "=={{int:filedesc}}==",
+        "upload_log": "=={{int:log}}==",
+        "categories": "[[Category:",
+        "license_header": "{{Information"
+      }
+    },
+    "ubuntu_wiki": {
+      "name": "Ubuntu Wiki",
+      "api_url": "https://wiki.ubuntu.com/api.php",
+      "user_agent": "WikiSecureBot/1.0 (Ubuntu Wiki)",
+      "validation_rules": {
+        "package_info": "{{Package|",
+        "release_info": "{{Release",
+        "categories": "[[Category:",
+        "table_of_contents": "__TOC__"
+      }
+    },
+    "debian_wiki": {
+      "name": "Debian Wiki",
+      "api_url": "https://wiki.debian.org/api.php",
+      "user_agent": "WikiSecureBot/1.0 (Debian Wiki)",
+      "validation_rules": {
+        "package_info": "{{Package|",
+        "deb_package": "deb:",
+        "categories": "[[Category:",
+        "table_of_contents": "__TOC__"
+      }
+    },
+    "fandom_minecraft": {
+      "name": "Minecraft Wiki (Fandom)",
+      "api_url": "https://minecraft.fandom.com/api.php",
+      "user_agent": "WikiSecureBot/1.0 (Minecraft Wiki)",
+      "validation_rules": {
+        "infobox": "{{Infobox",
+        "navbox": "{{Navbox",
+        "categories": "[[Category:",
+        "recipe_box": "{{Crafting"
+      }
+    },
+    "fandom_lol": {
+      "name": "League of Legends Wiki (Fandom)",
+      "api_url": "https://leagueoflegends.fandom.com/api.php",
+      "user_agent": "WikiSecureBot/1.0 (League of Legends Wiki)",
+      "validation_rules": {
+        "infobox": "{{Infobox",
+        "navbox": "{{Navbox",
+        "categories": "[[Category:",
+        "ability_box": "{{Ability"
+      }
+    },
+    "fandom_harrypotter": {
+      "name": "Harry Potter Wiki (Fandom)",
+      "api_url": "https://harrypotter.fandom.com/api.php",
+      "user_agent": "WikiSecureBot/1.0 (Harry Potter Wiki)",
+      "validation_rules": {
+        "infobox": "{{Infobox",
+        "navbox": "{{Navbox",
+        "categories": "[[Category:",
+        "quote_box": "{{Quote"
+      }
+    },
+    "fandom_starwars": {
+      "name": "Star Wars Wiki (Fandom)",
+      "api_url": "https://starwars.fandom.com/api.php",
+      "user_agent": "WikiSecureBot/1.0 (Star Wars Wiki)",
+      "validation_rules": {
+        "infobox": "{{Infobox",
+        "navbox": "{{Navbox",
+        "categories": "[[Category:",
+        "file_box": "{{File"
+      }
+    },
+    "fandom_marvel": {
+      "name": "Marvel Wiki (Fandom)",
+      "api_url": "https://marvel.fandom.com/api.php",
+      "user_agent": "WikiSecureBot/1.0 (Marvel Wiki)",
+      "validation_rules": {
+        "infobox": "{{Infobox",
+        "navbox": "{{Navbox",
+        "categories": "[[Category:",
+        "quote_box": "{{Quote"
+      }
+    },
+    "fandom_dc": {
+      "name": "DC Comics Wiki (Fandom)",
+      "api_url": "https://dc.fandom.com/api.php",
+      "user_agent": "WikiSecureBot/1.0 (DC Comics Wiki)",
+      "validation_rules": {
+        "infobox": "{{Infobox",
+        "navbox": "{{Navbox",
+        "categories": "[[Category:",
+        "quote_box": "{{Quote"
+      }
+    },
+    "gentoo_wiki": {
+      "name": "Gentoo Wiki",
+      "api_url": "https://wiki.gentoo.org/api.php",
+      "user_agent": "WikiSecureBot/1.0 (Gentoo Wiki)",
+      "validation_rules": {
+        "package_info": "{{Package|",
+        "ebuild_info": "{{Ebuild",
+        "categories": "[[Category:",
+        "table_of_contents": "__TOC__"
+      }
+    },
+    "fedora_wiki": {
+      "name": "Fedora Wiki",
+      "api_url": "https://fedoraproject.org/wiki/api.php",
+      "user_agent": "WikiSecureBot/1.0 (Fedora Wiki)",
+      "validation_rules": {
+        "package_info": "{{Package|",
+        "release_info": "{{Release",
+        "categories": "[[Category:",
+        "table_of_contents": "__TOC__"
+      }
+    },
+    "python_wiki": {
+      "name": "Python Wiki",
+      "api_url": "https://wiki.python.org/api.php",
+      "user_agent": "WikiSecureBot/1.0 (Python Wiki)",
+      "validation_rules": {
+        "package_info": "{{Package|",
+        "version_info": "{{Version",
+        "categories": "[[Category:",
+        "table_of_contents": "__TOC__"
+      }
+    }
+  }
+}

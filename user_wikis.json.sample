@@ -1,0 +1,13 @@
+{
+  "wikis": {
+    "my_custom_wiki": {
+      "name": "My Custom Wiki",
+      "api_url": "https://mywiki.example.com/api.php",
+      "user_agent": "WikiSecureBot/1.0 (My Custom Wiki)",
+      "validation_rules": {
+        "custom_rule_1": "Custom validation pattern 1",
+        "custom_rule_2": "Custom validation pattern 2"
+      }
+    }
+  }
+}
